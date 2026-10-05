@@ -86,7 +86,7 @@ def login_page():
                 st.session_state.admin = dict(admin)
                 st.rerun()
             else:
-                st.error("Invalid Username or Password.")
+                st.error("Invalid username or password.")
 
 
 # ---------- Admin dashboard ----------
